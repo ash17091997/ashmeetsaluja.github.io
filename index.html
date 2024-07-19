@@ -33,6 +33,10 @@
             <div class="about-info">
                 <h2>About Me</h2>
                 <p>Hello! I am Ashmeet Saluja, a passionate developer with a strong background in Cloud and Data Analytics. I am currently pursuing my Master of Science in Information Systems Management at Arizona State University. I love working on innovative projects and am always eager to learn new technologies.</p>
+                <ul class="about-details">
+                    <li><i class="fas fa-map-marker-alt"></i> Tempe, AZ</li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:asaluja4@asu.edu">asaluja4@asu.edu</a></li>
+                </ul>
             </div>
         </div>
     </section>
@@ -43,6 +47,7 @@
             <div class="education-item">
                 <h3>Arizona State University</h3>
                 <p>Master of Science in Information Systems Management</p>
+                <p>August 2023 - July 2024</p>
             </div>
         </div>
     </section>
@@ -53,6 +58,10 @@
             <div class="experience-item">
                 <h3>Prime Avenue Hotel</h3>
                 <p>Assistant Manager (Operations)</p>
+                <ul>
+                    <li>Directed the development and successful launch of front office software, leading to a 30% increase in revenue and market share.</li>
+                    <li>Leveraged advanced analytics using SQL and Python to uncover key trends and insights, resulting in a 15% increase in sales revenue.</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -79,11 +88,11 @@
         <div class="container">
             <h2>Skills</h2>
             <ul class="skills-list">
-                <li>Cloud Computing</li>
-                <li>Data Analytics</li>
-                <li>Python, SQL, HTML, CSS</li>
-                <li>Project Management</li>
-                <li>Agile/SCRUM</li>
+                <li><i class="fas fa-cloud"></i> Cloud Computing</li>
+                <li><i class="fas fa-chart-line"></i> Data Analytics</li>
+                <li><i class="fas fa-code"></i> Python, SQL, HTML, CSS</li>
+                <li><i class="fas fa-tasks"></i> Project Management</li>
+                <li><i class="fas fa-users-cog"></i> Agile/SCRUM</li>
             </ul>
         </div>
     </section>
@@ -101,5 +110,17 @@
             <p>&copy; 2024 Ashmeet Saluja</p>
         </div>
     </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
