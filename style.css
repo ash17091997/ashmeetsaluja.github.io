@@ -51,8 +51,30 @@ section .container {
     padding: 0 20px;
 }
 
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .project {
     margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 footer {
@@ -60,10 +82,4 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-}
-
-footer .container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 20px;
 }
